@@ -1,2 +1,4 @@
 # nodejs-ts-mongodb-crud
-I followed a tutorial from faztweb
+Example of CRUD operations using Typescript, NodeJS and MongoDB and 
+
+https://www.youtube.com/watch?v=UipIQ81kabs
