@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "public": "ncp ./src/public/ ./dist/public/",
-    "hbscopy": "ncp ./src/views/ ./dist/views/",
     "build": "npm run clean && tsc && npm run hbscopy && npm run public",
     "clean": "rimraf ./dist",
-    "serve": "node dist/index.js"
+    "hbscopy": "ncp ./src/views/ ./dist/views/",
+    "public": "ncp ./src/public/ ./dist/public/",
+    "serve": "node dist/index.js",
+    "start": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
