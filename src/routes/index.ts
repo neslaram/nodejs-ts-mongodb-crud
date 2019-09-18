@@ -4,7 +4,7 @@ const router = Router();
 router.get('/', renderIndex);
 
 function renderIndex(req: Request, res: Response) {
-    res.render('index');
+  res.render('index');
 }
 
 export default router;

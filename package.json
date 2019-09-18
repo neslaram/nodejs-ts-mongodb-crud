@@ -20,13 +20,13 @@
     "@types/mongoose": "^5.5.17",
     "@types/morgan": "^1.7.37",
     "nodemon": "^1.19.2",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.6.2"
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "mongoose": "^5.6.13",
+    "mongoose": "^5.7.1",
     "morgan": "^1.9.1",
     "ncp": "^2.0.0",
     "rimraf": "^3.0.0"
